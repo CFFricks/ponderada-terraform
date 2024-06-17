@@ -92,7 +92,7 @@ Para instalar o Terraform no Windows usando PowerShell, siga estes passos:
 ## Criando uma Instância EC2 com Terraform:
     
 1. Crie um arquivo de configuração Terraform chamado main.tf com o seguinte conteúdo:
-    ```
+```
 provider "aws" {
   region = "us-east-1"
 }
@@ -105,6 +105,7 @@ resource "aws_instance" "example" {
     Name = "TerraformExample"
   }
 }   
+  
    ```
 
 ## Criando a instância: 
@@ -112,7 +113,6 @@ resource "aws_instance" "example" {
 1. Abra o terminal e execute o comando:
 ```
 terraform init
-
 ```
 
 2.Para ver o que será criado, execute:
@@ -124,7 +124,6 @@ terraform plan
 
 ```
 terraform apply
-
 ``` 
 
 Digite **yes** quando solicitado para confirmar a aplicação da configuração.
@@ -132,27 +131,27 @@ Digite **yes** quando solicitado para confirmar a aplicação da configuração.
 4. Limpe a infraestrutura com:
 ```
 terraform destroy
-
 ```
 
 ### Passo a passo com prints:
 
-    <img src ="./assets/img11.jpeg">
-    <img src ="./assets/img12.jpeg">
-    <img src ="./assets/img13.jpeg">
-    <img src ="./assets/img14.jepg">
-    <img src ="./assets/img15.jpeg">
-    <img src ="./assets/img16.jpeg">
-    <img src ="./assets/img17.jpeg">
-    <img src ="./assets/img18.jpeg">
-    <img src ="./assets/img19.jpeg">
-    <img src ="./assets/img20.jpeg">
-    <img src ="./assets/img21.jpeg">
-    <img src ="./assets/img22.jpeg">
+   <img src ="./assets/img11.jpeg">
 
-    -No final é possivel ver a instancia criada no AWS:
-    <img src ="./assets/img23">
+ <img src ="./assets/img12.jpeg">
+ <img src ="./assets/img13.jpeg">
+ <img src ="./assets/img14.jpeg">
+ <img src ="./assets/img15.jpeg">
+ <img src ="./assets/img16.jpeg">
+ <img src ="./assets/img17.jpeg">
+ <img src ="./assets/img18.jpeg">
+ <img src ="./assets/img19.jpeg">
+ <img src ="./assets/img20.jpeg">
+ <img src ="./assets/img21.jpeg">
+ <img src ="./assets/img22.jpeg">
 
+ - No final é possivel ver a instancia criada no AWS:
+
+  <img src ="./assets/img23.jpeg">
 
 
 
