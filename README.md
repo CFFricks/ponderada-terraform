@@ -16,26 +16,26 @@ Para instalar o Terraform no Windows usando PowerShell, siga estes passos:
 
 1. **Abrir PowerShell como Administrador:**
    - Clique com o botão direito no menu Iniciar e selecione 'Windows PowerShell (Admin)'.
-    <img src = "./assets/img1">
+    <img src = "./assets/img1.jpg">
 
 2. **Baixar o Terraform:**
    ```powershell
    Invoke-WebRequest -Uri https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_windows_amd64.zip -OutFile terraform.zip
    ```
-     <img src = "./assets/img2">
+     <img src = "./assets/img2.png">
 
 
 3. **Extraia o arquivo ZIP:**
    ```powershell
     Expand-Archive -Path terraform.zip -DestinationPath C:\terraform
    ```
-    <img src = "./assets/img3">
+    <img src = "./assets/img3.png">
 
 4. **Adicione o Terraform ao PATH do sistema:**
    ```powershell
     [System.Environment]::SetEnvironmentVariable('PATH', $env:PATH + ';C:\terraform', [System.EnvironmentVariableTarget]::Machine)
    ```
-    <img src = "./assets/img4">
+    <img src = "./assets/img4.png">
 
 5. **Verifique se foi instalado:**
    ```powershell
@@ -64,13 +64,13 @@ Para instalar o Terraform no Windows usando PowerShell, siga estes passos:
 
 1. Abra o AWS Academy e inicie um módulo:
     - Escolha um curso que você esteja inscito:
-    <img src ="./assets/img6">
+    <img src ="./assets/img6.png">
 
     - Vá na aba Módulos e depois acesse o Laboratório de aprendizagem da AWS Academy:
-    <img src ="./assets/img7">
+    <img src ="./assets/img7.png">
 
     - Inicie o lab:
-    <img src ="./assets/img8">
+    <img src ="./assets/img8.png">
 
 2. Para configurar as credenciais va no PowerShell e digite 
    ```powershell
@@ -85,7 +85,7 @@ Para instalar o Terraform no Windows usando PowerShell, siga estes passos:
 
 4. Vá até o AWS Academy e pegue suas credenciais :
 
-    <img src ="./assets/img9">
+    <img src ="./assets/img9.png">
 
 5. Cole elas no notepad que você abriu
 
@@ -105,7 +105,7 @@ resource "aws_instance" "example" {
     Name = "TerraformExample"
   }
 }   
-```
+   ```
 
 ## Criando a instância: 
 
@@ -132,22 +132,23 @@ Digite **yes** quando solicitado para confirmar a aplicação da configuração.
 4. Limpe a infraestrutura com:
 ```
 terraform destroy
+
 ```
 
 ### Passo a passo com prints:
 
-    <img src ="./assets/img11">
-    <img src ="./assets/img12">
-    <img src ="./assets/img13">
-    <img src ="./assets/img14">
-    <img src ="./assets/img15">
-    <img src ="./assets/img16">
-    <img src ="./assets/img17">
-    <img src ="./assets/img18">
-    <img src ="./assets/img19">
-    <img src ="./assets/img20">
-    <img src ="./assets/img21">
-    <img src ="./assets/img22">
+    <img src ="./assets/img11.jpeg">
+    <img src ="./assets/img12.jpeg">
+    <img src ="./assets/img13.jpeg">
+    <img src ="./assets/img14.jepg">
+    <img src ="./assets/img15.jpeg">
+    <img src ="./assets/img16.jpeg">
+    <img src ="./assets/img17.jpeg">
+    <img src ="./assets/img18.jpeg">
+    <img src ="./assets/img19.jpeg">
+    <img src ="./assets/img20.jpeg">
+    <img src ="./assets/img21.jpeg">
+    <img src ="./assets/img22.jpeg">
 
     -No final é possivel ver a instancia criada no AWS:
     <img src ="./assets/img23">
